@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <!--Nama: Sierra Putri Valenci-->
+    <!--Kelas: XI-RPL 2-->
+    <!--Absen: 32-->
+</head>
+<body
+    background="logo brantas.png"
+    style="
+        background-attachment: fixed;
+        background-repeat: no-repeat;
+        background-position: center;
+        background-color: rgb(192, 193, 173);">
+    <h2 align="center">PENDAFTARAN CALON ANGGOTA OSIS</h2>
+    <form action="selesai.html"><!--form untuk membuat formulir-->
+        Nama Lengkap :
+        <input type="text" placeholder="Nama Anda"> <br><br>
+        <label for="edu">Kelas:</label>
+        <select id="edu" name="Kelas"><!--select untuk memilih-->
+            <option value="Kelas X">Kelas X</option>
+            <option value="Kelas XI">Kelas XI</option>
+        </select><br><br>
+        <h4> Jurusan</h4><!--h atau hider yaitu untuk mengatur ukuran teks-->
+        <input type="radio" name="jurusan" value="Jurusan"> Rekayasa Perangkat Lunak (PPLG) <br><!--radio untuk memilih satu pilihan-->
+        <input type="radio" name="jurusan" value="Jurusan"> Multimedia (DKV) <br> <!--value untuk nilai-->
+        <input type="radio" name="jurusan" value="Jurusan"> Mesin <br>
+        <input type="radio" name="jurusan" value="Jurusan"> Otomotif<br>
+        <input type="radio" name="jurusan" value="Jurusan"> Tata Boga <br>
+        <input type="radio" name="jurusan" value="Jurusan"> Tata Busana <br><br>
+        Tanggal Lahir : 
+        <input type="date" name="bday>"> <br><br>
+        Alamat Rumah : 
+        <input type="text" placeholder="Alamat "><br><br><!--input untuk elemen formulir-->
+        Nomor Telpon :
+        <input type="teks" placeholder="No Telp" maxlength="13"> <br><br>
+        Email Anda :
+        <input type="email" placeholder="Email"><br><br>
+        Kirim PAS Foto Anda :<br>
+        <input type="file" name="datal"><br><br>
+        <textarea wrap="soft" rows="8" cols="70">Visi dan Misi Menjadi Calon Anggota :</textarea>
+        <h3>Nama Anggota Inti Osis Beserta Jabatannya:</h3>
+        <table border="1" cellspacing="9px" cellpadding="4px" bgcolor="lightgrey">
+            <tr>
+                <td><b>Daftar Nama Anggota Inti</b></td>
+                <td><b>Jabatan</b></td>
+            </tr>
+            <tr>
+                <td>Julianto Lestari</td>
+                <td>Ketua Osis</td>
+            </tr>
+            <tr>
+                <td>Erina Sandra</td>
+                <td>Wakil Ketua Osis</td>
+            </tr>
+            <tr>
+                <td>Nabyla Aura</td>
+                <td>Penasehat 1</td>
+            </tr>
+            <tr>
+                <td>Rangga Riyo</td>
+                <td>Penasehat 2</td>
+            </tr>
+            <tr>
+                <td>Isma Anbiya</td>
+                <td>Sekretaris 1</td>
+            </tr> <tr>
+                <td>Aji Dwi</td>
+                <td>Sekretaris 2</td>
+            </tr> <tr>
+                <td>Handif Istama</td>
+                <td>Bendahara 1</td>
+            </tr> <tr>
+                <td>Hafiza Yudistia</td>
+                <td>Bendahara 2</td>
+            </tr> 
+        </table>
+        <br><br>
+        <a href="selesai.html">
+        <button>Submit</button>
+        </a>
+        
+    </form>
+</body>
+</html>
